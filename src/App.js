@@ -43,14 +43,7 @@ function New(props) {
     )
 };
 
-function Popular(props) {
-    return (
-        <div className="wrap-item wrap-item-popular">
-            <span className="label">Popular!</span>
-            {props.children}
-        </div>
-    )
-};
+
 
 function Article(props) {
     return (
@@ -61,6 +54,7 @@ function Article(props) {
     )
 };
 
+
 function Video(props) {
     return (
         <div className="item item-video">
@@ -69,6 +63,7 @@ function Video(props) {
         </div>
     )
 };
+
 
 function List(props) {
     return props.list.map(item =>
