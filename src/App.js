@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const HeadComponent = (props) => {
     {
         switch (props.type) {
